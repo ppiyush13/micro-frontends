@@ -1,5 +1,6 @@
 import React, {Suspense, lazy} from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {FlexBox} from 'react-styled-flex';
 
 window.MICROFRONT_END_BASE_URL_MF1 = 'http://localhost:19001/';
 window.MICROFRONT_END_BASE_URL_MF2 = 'http://localhost:19002/';
@@ -27,9 +28,9 @@ const MicroFrontend2 = lazy(() => Load('http://localhost:19002/mf-bundle.js'));
 const Loading = () => 'Loading...';
 
 export default () => {
-    return <div>
-        Group 1
+    return <FlexBox column gap={20} padding={20}>
+        <div>Group 1</div>
         <MicroFrontend1/>
         <MicroFrontend2/>
-    </div>
+    </FlexBox>
 }

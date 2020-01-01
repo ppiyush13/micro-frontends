@@ -246,7 +246,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div`
-    border: 1px solid black;
+    padding: 10px;
+    border: 3px dashed firebrick;
 `;
 /* harmony default export */ __webpack_exports__["default"] = (() => {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Micro-frontend 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_2__["default"], null));
@@ -269,7 +270,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_1__);
 
 
-const DefaultComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() | [default] */ "907316c0cab76510").then(__webpack_require__.bind(null, /*! ./components/default */ "PfID")));
+const DefaultComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ "907316c0cab76510").then(__webpack_require__.bind(null, /*! ./components/default */ "PfID")));
 const EditComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ "020ed41c373fb210").then(__webpack_require__.bind(null, /*! ./components/edit */ "uzSy")));
 const AddComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ "81d8016c02353f35").then(__webpack_require__.bind(null, /*! ./components/add */ "27ZU")));
 
@@ -278,7 +279,6 @@ const Loading = () => 'Loading...';
 const Routes = ({
   match
 }) => {
-  console.log(match);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Suspense"], {
     fallback: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Loading, null)
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {

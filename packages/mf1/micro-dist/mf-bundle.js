@@ -235,7 +235,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div`
-    border: 1px solid black;
+    padding: 10px;
+    border: 3px dashed forestgreen;
 `;
 /* harmony default export */ __webpack_exports__["default"] = (() => {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Micro-frontend 1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_2__["default"], null));
@@ -258,7 +259,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_1__);
 
 
-const DefaultComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() | [default] */ "035cfc821d95344e").then(__webpack_require__.bind(null, /*! ./components/default */ "./src/components/default.jsx")));
+const DefaultComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ "035cfc821d95344e").then(__webpack_require__.bind(null, /*! ./components/default */ "./src/components/default.jsx")));
 const EditComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ "713dcfeae3f90f96").then(__webpack_require__.bind(null, /*! ./components/edit */ "./src/components/edit.jsx")));
 const AddComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ "6d8231bde6dca08a").then(__webpack_require__.bind(null, /*! ./components/add */ "./src/components/add.jsx")));
 
@@ -267,7 +268,6 @@ const Loading = () => 'Loading...';
 const Routes = ({
   match
 }) => {
-  console.log(match);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Suspense"], {
     fallback: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Loading, null)
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {

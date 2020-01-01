@@ -2,20 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>How to set up React, Webpack, and Babel</title>
-    <script>
-        window.replaceSrcMethodName = function(originalSrc) {
-            //debugger
-            console.log('hit');
-            if (originalSrc.match(/MicroFrontend1/)) {
-                // use any condition to choose the URL
-                return "http://localhost:19001/mf-bundle.js";
-            }
-            return originalSrc;
-        }
-    </script>
-    <!-- <script src='http://localhost:19001/mf-bundle.js'>
-    </script> -->
+    <title>Micro-Frontends</title>
 </head>
 <body>
     <div id="root"></div>

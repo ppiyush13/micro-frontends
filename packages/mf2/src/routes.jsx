@@ -7,7 +7,7 @@ const AddComponent = lazy(() => import('./components/add'));
 const Loading = () => 'Loading...';
 
 const Routes = ({match}) => {
-    console.log(match);
+
     return <BrowserRouter>
         <Suspense fallback={<Loading/>}>
             <Switch>

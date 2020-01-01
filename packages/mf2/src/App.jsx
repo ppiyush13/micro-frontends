@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import Routes from './routes';
 
 const Wrapper = styled.div`
-    border: 1px solid black;
+    padding: 10px;
+    border: 3px dashed firebrick;
 `;
 
 export default () => {
