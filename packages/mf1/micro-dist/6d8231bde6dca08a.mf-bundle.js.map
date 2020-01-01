@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/components/add.jsx"],"names":[],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAEe,qEAAM;AACjB,SAAO,UAAP;AACH,CAFD,E","file":"6d8231bde6dca08a.mf-bundle.js","sourcesContent":["import React from 'react';\r\n\r\nexport default () => {\r\n    return 'Add mode'\r\n}"],"sourceRoot":""}

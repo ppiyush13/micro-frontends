@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/components/edit.jsx"],"names":[],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAEe,qEAAM;AACjB,SAAO,WAAP;AACH,CAFD,E","file":"020ed41c373fb210.mf-bundle.js","sourcesContent":["import React from 'react';\r\n\r\nexport default () => {\r\n    return 'Edit mode'\r\n}"],"sourceRoot":""}
