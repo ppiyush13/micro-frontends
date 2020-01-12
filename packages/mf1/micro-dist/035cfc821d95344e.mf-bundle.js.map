@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/components/default.jsx"],"names":[],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAEe,qEAAM;AACjB,SAAO,eAAP;AACH,CAFD,E","file":"035cfc821d95344e.mf-bundle.js","sourcesContent":["import React from 'react';\r\n\r\nexport default () => {\r\n    return 'default route';\r\n}"],"sourceRoot":""}

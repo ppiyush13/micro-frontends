@@ -1,6 +1,6 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["81d8016c02353f35"],{
+(window["webpackJsonpmf2"] = window["webpackJsonpmf2"] || []).push([[0],{
 
-/***/ "27ZU":
+/***/ "./src/components/add.jsx":
 /*!********************************!*\
   !*** ./src/components/add.jsx ***!
   \********************************/
@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (() => {
@@ -19,4 +19,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=81d8016c02353f35.mf-bundle.js.map
+//# sourceMappingURL=0.mf-bundle.js.map

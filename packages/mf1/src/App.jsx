@@ -1,3 +1,4 @@
+//import './plugin/load';
 import React from 'react';
 import styled from 'styled-components';
 import Routes from './routes';

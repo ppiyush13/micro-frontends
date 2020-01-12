@@ -36,7 +36,7 @@
 /******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 	// Promise = chunk loading, 0 = chunk loaded
 /******/ 	var installedChunks = {
-/******/ 		"43ca1cedd2e8ce71": 0
+/******/ 		"main": 0
 /******/ 	};
 /******/
 /******/
@@ -203,7 +203,7 @@
 /******/ 	 }
 /******/ 	})
 /******/
-/******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
+/******/ 	var jsonpArray = window["webpackJsonpmf2"] = window["webpackJsonpmf2"] || [];
 /******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
 /******/ 	jsonpArray.push = webpackJsonpCallback;
 /******/ 	jsonpArray = jsonpArray.slice();
@@ -212,23 +212,12 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "FZF3");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/App.jsx");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "Dtiu":
-/*!***********************************!*\
-  !*** external "StyledComponents" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = StyledComponents;
-
-/***/ }),
-
-/***/ "FZF3":
+/***/ "./src/App.jsx":
 /*!*********************!*\
   !*** ./src/App.jsx ***!
   \*********************/
@@ -237,11 +226,11 @@ module.exports = StyledComponents;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "Dtiu");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./routes */ "XKjY");
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./routes */ "./src/routes.jsx");
 
 
 
@@ -255,7 +244,7 @@ const Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div`
 
 /***/ }),
 
-/***/ "XKjY":
+/***/ "./src/routes.jsx":
 /*!************************!*\
   !*** ./src/routes.jsx ***!
   \************************/
@@ -264,15 +253,15 @@ const Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div`
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "oncg");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "react-router-dom");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_1__);
 
 
-const DefaultComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ "907316c0cab76510").then(__webpack_require__.bind(null, /*! ./components/default */ "PfID")));
-const EditComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ "020ed41c373fb210").then(__webpack_require__.bind(null, /*! ./components/edit */ "uzSy")));
-const AddComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ "81d8016c02353f35").then(__webpack_require__.bind(null, /*! ./components/add */ "27ZU")));
+const DefaultComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ./components/default */ "./src/components/default.jsx")));
+const EditComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ./components/edit */ "./src/components/edit.jsx")));
+const AddComponent = Object(react__WEBPACK_IMPORTED_MODULE_0__["lazy"])(() => __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./components/add */ "./src/components/add.jsx")));
 
 const Loading = () => 'Loading...';
 
@@ -297,7 +286,7 @@ const Routes = ({
 
 /***/ }),
 
-/***/ "cDcd":
+/***/ "react":
 /*!************************!*\
   !*** external "react" ***!
   \************************/
@@ -308,7 +297,7 @@ module.exports = react;
 
 /***/ }),
 
-/***/ "oncg":
+/***/ "react-router-dom":
 /*!******************************!*\
   !*** external "ReactRouter" ***!
   \******************************/
@@ -316,6 +305,17 @@ module.exports = react;
 /***/ (function(module, exports) {
 
 module.exports = ReactRouter;
+
+/***/ }),
+
+/***/ "styled-components":
+/*!***********************************!*\
+  !*** external "StyledComponents" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = StyledComponents;
 
 /***/ })
 

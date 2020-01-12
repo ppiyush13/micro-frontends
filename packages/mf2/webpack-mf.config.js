@@ -9,6 +9,7 @@ module.exports = {
 	output: {
 		path: __dirname + '/micro-dist',
 		filename: 'mf-bundle.js',
+		jsonpFunction: 'webpackJsonpmf2',
 	},
 	externals: {
 		'react': 'react',
@@ -29,17 +30,17 @@ module.exports = {
 	},
 	plugins: [
 		new CleanWebpackPlugin(),
-		new webpack.HashedModuleIdsPlugin(),
-		new HashedChunkidsPlugin({
+		//new webpack.HashedModuleIdsPlugin(),
+		/* new HashedChunkidsPlugin({
 			hashDigestLength: 16,
-		}),
+		}), */
 		new WebpackRequireFrom({
 			variableName: 'MICROFRONT_END_BASE_URL_MF2'
 		}),
 	],
-	optimization: {
+	/* optimization: {
 		splitChunks: {
 			name: false,
 		}
-	},
+	}, */
 };
